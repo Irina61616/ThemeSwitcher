@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThemeSwitcher - Умный переключатель тем</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="theme-toggle-wrapper">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Переключить тему">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <main class="container">
+        <section class="hero">
+            <h1 class="hero-title">
+                <span class="gradient-text">ThemeSwitcher</span>
+            </h1>
+            <p class="hero-subtitle">
+                Современный сайт с умным переключением между светлой и темной темой
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" id="learn-more">
+                    <i class="fas fa-rocket"></i>
+                    Узнать больше
+                </button>
+                <button class="btn btn-secondary" id="contact">
+                    <i class="fas fa-envelope"></i>
+                    Связаться
+                </button>
+            </div>
+        </section>
+        
+        <section class="features">
+            <h2 class="section-title">Возможности</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Две темы</h3>
+                    <p>Светлая и темная тема с плавным переключением. Выбирайте то, что комфортнее для глаз.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Адаптивный дизайн</h3>
+                    <p>Идеально смотрится на всех устройствах: от мобильных телефонов до широких мониторов.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Умная система</h3>
+                    <p>Автоматически подстраивается под системные настройки вашего устройства.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Запоминает выбор</h3>
+                    <p>Сохранение выбранной темы в localStorage - при следующем визите тема применится автоматически.</p>
+                </div>
+            </div>
+        </section>
+
+    
+        <section class="pricing">
+            <h2 class="section-title">Тарифы</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Базовый</h3>
+                    <div class="price">499 ₽</div>
+                    <ul class="price-features">
+                        <li><i class="fas fa-check"></i> Базовый функционал</li>
+                        <li><i class="fas fa-check"></i> Поддержка 24/7</li>
+                        <li><i class="fas fa-times"></i> Расширенная статистика</li>
+                        <li><i class="fas fa-times"></i> Интеграции</li>
+                    </ul>
+                    <button class="btn btn-primary">Выбрать</button>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Популярное</div>
+                    <h3>Профессиональный</h3>
+                    <div class="price">999 ₽</div>
+                    <ul class="price-features">
+                        <li><i class="fas fa-check"></i> Весь базовый функционал</li>
+                        <li><i class="fas fa-check"></i> Поддержка 24/7</li>
+                        <li><i class="fas fa-check"></i> Расширенная статистика</li>
+                        <li><i class="fas fa-times"></i> Интеграции</li>
+                    </ul>
+                    <button class="btn btn-primary">Выбрать</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Корпоративный</h3>
+                    <div class="price">1999 ₽</div>
+                    <ul class="price-features">
+                        <li><i class="fas fa-check"></i> Весь функционал</li>
+                        <li><i class="fas fa-check"></i> Приоритетная поддержка</li>
+                        <li><i class="fas fa-check"></i> Расширенная статистика</li>
+                        <li><i class="fas fa-check"></i> Интеграции</li>
+                    </ul>
+                    <button class="btn btn-primary">Выбрать</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2 class="section-title">Отзывы</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <p class="testimonial-text">"Отличный дизайн! Переключение темы работает плавно, глаз радуется. Обязательно закажу такой же для своего сайта."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Анна Петрова</h4>
+                            <p>Дизайнер</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <p class="testimonial-text">"Очень удобно, что тема запоминается. Зашел через неделю - все как я люблю, в темном режиме. Спасибо!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Михаил Иванов</h4>
+                            <p>Разработчик</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <p class="testimonial-text">"Адаптивность на высоте. На телефоне смотрится отлично, кнопки удобные, текст читается легко в обеих темах."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Елена Соколова</h4>
+                            <p>Маркетолог</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Отправить
+                </button>
+            </form>
+        </section>
+    </main>
+
+ 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ThemeSwitcher</h3>
+                    <p>Современные решения для вашего сайта</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@themeswitcher.ru</li>
+                        <li><i class="fas fa-phone"></i> +7 (999) 123-45-67</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Москва, ул. Примерная, 123</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Соцсети</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ThemeSwitcher. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+    <button id="scroll-top" class="scroll-top" aria-label="Наверх">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
